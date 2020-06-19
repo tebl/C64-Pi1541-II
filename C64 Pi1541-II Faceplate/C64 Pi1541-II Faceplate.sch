@@ -207,4 +207,6 @@ F 3 "" H 6550 4075 50  0001 C CNN
 	1    6550 4075
 	-1   0    0    -1  
 $EndComp
+Text Notes 7000 6750 0    60   ~ 0
+This module is not really necessary as the OLED can also be mounted on the main\nmodule, but I added it as a way of getting a more presentable solution.
 $EndSCHEMATC

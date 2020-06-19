@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 393)
     (zones 0)
     (modules 31)
@@ -1973,6 +1973,9 @@
     )
   )
 
+  (gr_text "5V DC" (at 82.421 69.995) (layer F.SilkS) (tstamp 5EEB983E)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text + (at 85.169 71.83) (layer F.SilkS) (tstamp 5EEB9501)
     (effects (font (size 1 1) (thickness 0.15)))
   )

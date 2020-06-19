@@ -1052,4 +1052,6 @@ F 3 "" H 9425 9575 50  0001 C CNN
 	1    9425 9575
 	-1   0    0    -1  
 $EndComp
+Text Notes 11850 10350 0    60   ~ 0
+Wanted to do a revised version of the PI1541 module I made some time ago, but since I\ncan't go smaller with my current equipment I made it ridiculously large instead. Intended\nfor use with a faceplate and should for the most part look somewhat like a floppy disk\n(except a little smaller).
 $EndSCHEMATC

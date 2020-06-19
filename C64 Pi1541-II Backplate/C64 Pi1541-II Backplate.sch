@@ -57,4 +57,6 @@ F 3 "" H 11025 625 50  0001 C CNN
 	1    11025 625 
 	1    0    0    -1  
 $EndComp
+Text Notes 7000 6750 0    60   ~ 0
+This PCB does not have any components, it's only purpose is to have something on the\nbottom so that the user does not need to handle the electronics directly.
 $EndSCHEMATC
