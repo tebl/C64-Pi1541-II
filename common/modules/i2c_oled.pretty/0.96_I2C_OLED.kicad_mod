@@ -1,4 +1,4 @@
-(module 0.96_I2C_OLED (layer F.Cu) (tedit 5E639D03)
+(module 0.96_I2C_OLED (layer F.Cu) (tedit 5F762886)
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (fp_text reference IC1 (at 0 5.08 180) (layer F.SilkS)
@@ -25,6 +25,7 @@
   (pad 3 thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.75 24.5) (size 2.5 2.5) (drill 2.4) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -11.75 24.5) (size 2.5 2.5) (drill 2.4) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
