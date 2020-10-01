@@ -169,42 +169,25 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5E61DE6E
-P 2600 8850
-F 0 "#PWR0101" H 2600 8600 50  0001 C CNN
-F 1 "GND" H 2605 8677 50  0000 C CNN
-F 2 "" H 2600 8850 50  0001 C CNN
-F 3 "" H 2600 8850 50  0001 C CNN
-	1    2600 8850
+P 2675 8850
+F 0 "#PWR0101" H 2675 8600 50  0001 C CNN
+F 1 "GND" H 2680 8677 50  0000 C CNN
+F 2 "" H 2675 8850 50  0001 C CNN
+F 3 "" H 2675 8850 50  0001 C CNN
+	1    2675 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 8775 2525 8775
-Wire Wire Line
-	2600 8775 2600 8675
-Wire Wire Line
-	2600 8675 2525 8675
-$Comp
-L barrel_jack:reverse_protect D1
-U 1 1 5E63055C
-P 2750 8575
-F 0 "D1" H 2750 8359 50  0000 C CNN
-F 1 "1n4001" H 2750 8450 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2750 8575 50  0001 C CNN
-F 3 "~" H 2750 8575 50  0001 C CNN
-	1    2750 8575
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2525 8575 2600 8575
+	2675 8775 2675 8675
 $Comp
 L power:+5V #PWR0106
 U 1 1 5E6B750D
-P 2975 8500
-F 0 "#PWR0106" H 2975 8350 50  0001 C CNN
-F 1 "+5V" H 2975 8650 50  0000 C CNN
-F 2 "" H 2975 8500 50  0001 C CNN
-F 3 "" H 2975 8500 50  0001 C CNN
-	1    2975 8500
+P 2675 8500
+F 0 "#PWR0106" H 2675 8350 50  0001 C CNN
+F 1 "+5V" H 2675 8650 50  0000 C CNN
+F 2 "" H 2675 8500 50  0001 C CNN
+F 3 "" H 2675 8500 50  0001 C CNN
+	1    2675 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -214,9 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	2625 9725 3100 9725
 Wire Wire Line
-	2975 8500 2975 8575
-Wire Wire Line
-	2975 8575 2900 8575
+	2675 8500 2675 8575
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5EE65CEA
@@ -358,8 +339,8 @@ F 3 "" H 3075 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 8850 2600 8775
-Connection ~ 2600 8775
+	2675 8850 2675 8775
+Connection ~ 2675 8775
 Wire Wire Line
 	2575 2450 2575 2375
 $Comp
@@ -1031,10 +1012,10 @@ Wire Wire Line
 Wire Wire Line
 	9425 9800 9425 9575
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5F4491DA
 P 9350 10075
-F 0 "#PWR?" H 9350 9825 50  0001 C CNN
+F 0 "#PWR0110" H 9350 9825 50  0001 C CNN
 F 1 "GND" H 9355 9902 50  0000 C CNN
 F 2 "" H 9350 10075 50  0001 C CNN
 F 3 "" H 9350 10075 50  0001 C CNN
@@ -1042,10 +1023,10 @@ F 3 "" H 9350 10075 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0114
 U 1 1 5F44F08B
 P 9425 9575
-F 0 "#PWR?" H 9425 9425 50  0001 C CNN
+F 0 "#PWR0114" H 9425 9425 50  0001 C CNN
 F 1 "+3.3V" H 9440 9748 50  0000 C CNN
 F 2 "" H 9425 9575 50  0001 C CNN
 F 3 "" H 9425 9575 50  0001 C CNN
@@ -1054,4 +1035,10 @@ F 3 "" H 9425 9575 50  0001 C CNN
 $EndComp
 Text Notes 11850 10350 0    60   ~ 0
 Wanted to do a revised version of the PI1541 module I made some time ago, but since I\ncan't go smaller with my current equipment I made it ridiculously large instead. Intended\nfor use with a faceplate and should for the most part look somewhat like a floppy disk\n(except a little smaller).
+Wire Wire Line
+	2525 8575 2675 8575
+Wire Wire Line
+	2525 8775 2675 8775
+Wire Wire Line
+	2525 8675 2675 8675
 $EndSCHEMATC
