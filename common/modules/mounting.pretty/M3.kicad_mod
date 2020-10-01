@@ -1,4 +1,4 @@
-(module M3 (layer F.Cu) (tedit 5EE4220A)
+(module M3 (layer F.Cu) (tedit 5F7625BA)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags DEV)
   (fp_text reference REF** (at 0 -3.048) (layer F.Fab) hide
@@ -9,6 +9,6 @@
   )
   (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
   (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
-  (pad "" np_thru_hole circle (at 0 0) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask)
-    (solder_mask_margin 1.625))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.048) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.8))
 )
