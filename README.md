@@ -18,7 +18,7 @@ Values in parenthesis are components can be be considered optional, but if you w
 ## 1.1> Pi1541-II Module
 | Reference                 | Item                                  | Count |
 | ------------------------- | ------------------------------------- | ----- |
-| Pi1541-II Module (PCB)    | Fabricate using Gerber files          |     1 |
+| Pi1541-II Module (PCB)    | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Pi1541_II_Module.html?inviteid=88707))          |     1 |
 | A1                        | 2x20 female pin header                |     1 |
 |                           | Raspberry Pi 3B                       |     1 |
 | BZ1                       | Buzzer (7mm pin spacing, 5mm OK)      |   (1) |
@@ -39,18 +39,18 @@ Values in parenthesis are components can be be considered optional, but if you w
 **) There are unfortunately counterfeit 7406 chips floating around, the ones I've had the most success with has been marked 7406PC though a few SN7406 have also worked. See Pi1541 software homepage for instructions on how to verify that the IC installed is working properly (it'll usually work, but with some issues on loading software).
 
 ## 1.2> Pi1541-II Faceplate
-Note that for the faceplate there may be several variants available to you, this is due to the differences in the displays available for purchase - the one to look for is sometimes described as the old 4 pin 128x64 SSD1306 OLED-display (0.96").
+Note that for the faceplate there may be several variants available to you, this is due to the differences in the displays available for purchase - the one to look for is sometimes described as the old or original 4 pin 128x64 SSD1306 OLED-display (0.96").
 
 | Reference                 | Item                                  | Count |
 | ------------------------- | ------------------------------------- | ----- |
-| Pi1541-II Faceplate (PCB) | Fabricate using Gerber files          |     1 |
+| Pi1541-II Faceplate (PCB) | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Pi1541_II_Faceplate__variant_A_.html?inviteid=88707))          |     1 |
 | IC1                       | SSD1306 OLED-display 128x64 (0.96")   |     1 |
 | J4                        | 1x4 extra long pin header             |     1 |
 
 ## 1.3> Pi1541-II Backplate
 | Reference                 | Item                                  | Count |
 | ------------------------- | ------------------------------------- | ----- |
-| Pi1541-II Backplate (PCB) | Fabricate using Gerber files          |     1 |
+| Pi1541-II Backplate (PCB) | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Pi1541_II_Backplate.html?inviteid=88707))          |     1 |
 
 ## 1.4> Miscellaneous components
 This is a suggested list of components used to screw together each of the PCBs, most of these you can find as part of a set on ebay (just search for "*M3 nylon assorted standoff kit*").
