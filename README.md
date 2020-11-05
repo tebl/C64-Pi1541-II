@@ -15,6 +15,10 @@ This is the list of parts that you'd need in order to construct a Pi1541-II, mos
 
 Values in parenthesis are components can be be considered optional, but if you want to build it for yourself I higly recommend them as they only should only slightly increase the overall cost of doing this project. When ordering the PCBs you can order them via your favourite PCB fabrication company, but please consider using the provided URLs as doing so will help me cover some of the costs associated with PCB designs (at no extra cost to you).
 
+![this one](https://github.com/tebl/C64-Pi1541-II/raw/main/gallery/2020-11-05%2023.57.00.jpg)
+
+Check out the gallery-section for a selection of images that can be used to identify ebay-listings which should work for this build. When in doubt however, look for a different listing if the information provided is limited.
+
 ## 1.1> Pi1541-II Module
 | Reference                 | Item                                  | Count |
 | ------------------------- | ------------------------------------- | ----- |
@@ -22,10 +26,10 @@ Values in parenthesis are components can be be considered optional, but if you w
 | A1                        | 2x20 female pin header                |     1 |
 |                           | Raspberry Pi 3B                       |     1 |
 | BZ1                       | Buzzer (7mm pin spacing, 5mm OK)      |   (1) |
-| C1                        | 100nF ceramic capacitor               |     1 |
+| C1                        | 100nF ceramic capacitor (5mm)         |     1 |
 | D2                        | 5mm LED, green colour                 |     1 |
 | D3                        | 5mm LED, red colour                   |    (1)|
-| IC1 *                     | SSD1306 OLED-display 128x64 (0.96")   |    (1)|
+| IC1 *                     | SSD1306 I2C OLED 128x64 (0.96")       |    (1)|
 | IC2 **                    | 7406 (DIP-14)                         |     1 |
 | IC3                       | 4ch I2C level converter module        |     1 |
 | R1, R2                    | 1k Ohm resistor                       |     2 |
@@ -39,12 +43,12 @@ Values in parenthesis are components can be be considered optional, but if you w
 **) There are unfortunately counterfeit 7406 chips floating around, the ones I've had the most success with has been marked 7406PC though a few SN7406 have also worked. See Pi1541 software homepage for instructions on how to verify that the IC installed is working properly (it'll usually work, but with some issues on loading software).
 
 ## 1.2> Pi1541-II Faceplate
-Note that for the faceplate there may be several variants available to you, this is due to the differences in the displays available for purchase - the one to look for is sometimes described as the old or original 4 pin 128x64 SSD1306 OLED-display (0.96").
+Note that for the faceplate there may be several variants available to you, this is due to the differences in the displays available for purchase - the one to look for is sometimes described as the old or **original** 4 pin I2C 128x64 SSD1306 OLED-display (0.96"). You can refer to this [image](https://github.com/tebl/C64-Pi1541-II/raw/main/gallery/2020-11-06%2000.01.40.jpg) when ordering, from the ones I've bought it seems easier to look for the wider ribbon cable on the bottom of the displays.
 
 | Reference                 | Item                                  | Count |
 | ------------------------- | ------------------------------------- | ----- |
 | Pi1541-II Faceplate (PCB) | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Pi1541_II_Faceplate__variant_A_.html?inviteid=88707))          |     1 |
-| IC1                       | SSD1306 OLED-display 128x64 (0.96")   |     1 |
+| IC1                       | SSD1306 I2C OLED 128x64 (0.96")       |     1 |
 | J4                        | 1x4 extra long pin header             |     1 |
 
 ## 1.3> Pi1541-II Backplate
