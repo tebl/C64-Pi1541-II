@@ -1,4 +1,4 @@
-376459913104322
+379975843141480
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -51414,6 +51414,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+i2c_oled
+0.96_I2C_OLED_NEW
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 mounting
 M2
 module 1 pin (ou trou mecanique de percage)
@@ -51428,6 +51435,13 @@ DEV
 0
 0
 0
+mounting
+M3_pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
 wire_pads
 OLED_SEL
 Through hole straight pin header, 1x03, 1.27mm pitch, single row
