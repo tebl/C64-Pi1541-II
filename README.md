@@ -103,7 +103,7 @@ SoundOnGPIO = 1
 soundOnGPIODuration = 200
 soundOnGPIOFreq = 200
 
-LCDName = sh1106_128x64
+LCDName = ssd1306_128x64
 LcdLogoName = 1541ii
 
 i2cBusMaster = 1
