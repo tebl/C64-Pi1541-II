@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Pi1541-II"
+Title "Pi1541-II Module"
 Date ""
-Rev "A"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -278,7 +278,7 @@ Wire Wire Line
 	6375 10200 6375 10275
 Connection ~ 6375 10200
 $Comp
-L Connector:Raspberry_Pi_2_3 A1
+L raspberry_pi:Raspberry_Pi_2_3 A1
 U 1 1 5EE82FB5
 P 2775 3750
 F 0 "A1" H 2225 5100 50  0000 C CNN
@@ -891,7 +891,7 @@ I2C_SDA
 Text GLabel 8750 9400 2    60   Input ~ 0
 I2C_SCL
 $Comp
-L Jumper:SolderJumper_3_Open JP2
+L I2C_OLED:PowerSelect JP2
 U 1 1 5F12F8C1
 P 8400 8700
 F 0 "JP2" V 8354 8768 50  0000 L CNN
@@ -917,7 +917,7 @@ F 3 "" H 8400 8975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JP1
+L I2C_OLED:PowerSelect JP1
 U 1 1 5F14C67F
 P 7800 8700
 F 0 "JP1" V 7846 8768 50  0000 L CNN

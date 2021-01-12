@@ -1,13 +1,14 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
-G04 #@! TF.CreationDate,2020-10-01T21:29:28+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*
+G04 #@! TF.CreationDate,2021-01-12T02:12:58+01:00*
 G04 #@! TF.ProjectId,C64 Pi1541-II Module,43363420-5069-4313-9534-312d4949204d,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,OtherDrawing,Comment*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-10-01 21:29:28*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-01-12 02:12:58*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 %ADD10C,0.150000*%
 G04 APERTURE END LIST*
