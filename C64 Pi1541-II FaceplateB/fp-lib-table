@@ -5,6 +5,5 @@
   (lib (name IIC_4CH_Level_Converter)(type KiCad)(uri $KIPRJMOD/../common/modules/IIC_4CH_Level_Converter.pretty)(options "")(descr ""))
   (lib (name Jumper)(type KiCad)(uri ${KISYSMOD}/Jumper.pretty)(options "")(descr ""))
   (lib (name RPI)(type KiCad)(uri $KIPRJMOD/../common/modules/RPI.pretty)(options "")(descr ""))
-  (lib (name Symbols)(type KiCad)(uri ${KISYSMOD}/Symbols.pretty)(options "")(descr ""))
   (lib (name wire_pads)(type KiCad)(uri $KIPRJMOD/../common/modules/wire_pads.pretty)(options "")(descr ""))
 )

@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*
-G04 #@! TF.CreationDate,2021-01-12T00:32:37+01:00*
+G04 #@! TF.CreationDate,2021-01-22T22:50:40+01:00*
 G04 #@! TF.ProjectId,C64 Pi1541-II FaceplateB,43363420-5069-4313-9534-312d49492046,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-01-12 00:32:37*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-01-22 22:50:40*
 %MOMM*%
 %LPD*%
 G01*
@@ -126,8 +126,8 @@ G03*
 X133985000Y-103505000I-12700000J0D01*
 G01*
 D14*
-X118250000Y-81555000D03*
-X97650000Y-81555000D03*
+X118250000Y-82255000D03*
+X97650000Y-82255000D03*
 D15*
 X104140000Y-59055000D03*
 D16*
